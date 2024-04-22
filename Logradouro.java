@@ -1,8 +1,10 @@
 public class Logradouro {
     private String nome;
+    public String tipoLogradouro; 
 
-    Logradouro(String nome){
+    Logradouro(String nome, TipoLogradouro tipo){
         this.nome = nome;
+        this.tipoLogradouro = tipo.toString();
     }
 
     public String getNome() {

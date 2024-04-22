@@ -4,13 +4,15 @@ public class Endereco {
     private int CEP;
     private Bairro bairro;
     private Logradouro logradouro;
+    private String tipoEndereco;
 
-    public Endereco(int numero, String complemento, int cep, Bairro bairro, Logradouro logradouro){
+    public Endereco(int numero, String complemento, int cep, Bairro bairro, Logradouro logradouro, TipoEndereco tipo){
         this.numero = numero;
         this.Complemento = complemento;
         this.CEP = cep;
         this.bairro = bairro;
         this.logradouro = logradouro;
+        this.tipoEndereco = tipoEndereco.toString();
     }
 
     public int getCEP() {
