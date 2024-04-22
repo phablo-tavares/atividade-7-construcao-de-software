@@ -3,12 +3,14 @@ public class Endereco {
     private String Complemento;
     private int CEP;
     private Bairro bairro;
+    private Logradouro logradouro;
 
-    public Endereco(int numero, String complemento, int cep, Bairro bairro){
+    public Endereco(int numero, String complemento, int cep, Bairro bairro, Logradouro logradouro){
         this.numero = numero;
         this.Complemento = complemento;
         this.CEP = cep;
         this.bairro = bairro;
+        this.logradouro = logradouro;
     }
 
     public int getCEP() {
@@ -35,5 +37,12 @@ public class Endereco {
     }
     public void setBairro(Bairro bairro) {
         this.bairro = bairro;
+    }
+
+    public Logradouro getLogradouro() {
+        return logradouro;
+    }
+    public void setLogradouro(Logradouro logradouro) {
+        this.logradouro = logradouro;
     }
 }
