@@ -1,3 +1,4 @@
+package endereco;
 public class Pais {
     private String nome;
 

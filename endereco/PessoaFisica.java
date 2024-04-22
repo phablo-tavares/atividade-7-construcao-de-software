@@ -1,3 +1,4 @@
+package endereco;
 import java.util.Date;
 
 public class PessoaFisica {

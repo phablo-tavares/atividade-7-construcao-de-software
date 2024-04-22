@@ -1,3 +1,4 @@
+package endereco;
 public class Logradouro {
     private String nome;
     public String tipoLogradouro; 
