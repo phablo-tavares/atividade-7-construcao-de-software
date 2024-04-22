@@ -14,6 +14,11 @@ public class Endereco {
         this.logradouro = logradouro;
         this.tipoEndereco = tipoEndereco.toString();
     }
+    public Endereco(int numero, String complemento, int cep){
+        this.numero = numero;
+        this.Complemento = complemento;
+        this.CEP = cep;
+    }
 
     public int getCEP() {
         return CEP;
